@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
     <title>Chickens</title>
 </head>
-<body>
-    <h1>Chickens!</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem alias aliquam est eum, blanditiis repellat exercitationem. Dignissimos, ea error. Voluptates?
 
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad at, libero quisquam iusto, beatae sit laborum veniam cupiditate, voluptatem adipisci ea perspiciatis molestias. Repellendus nisi iusto facilis ullam nobis omnis quam quo. Enim sit cupiditate distinctio, quos aliquid voluptate dolorum assumenda velit quam ducimus iusto tempore maxime deserunt laboriosam ea!
-    </p>
+<body>
+    <svg viewBox="0 0 600 300">
+        <!-- Symbol-->
+        <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="50%" dy=".35em">Chickens!</text>
+        </symbol>
+        <!-- Duplicate symbols-->
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+    </svg>
 </body>
+
 </html>
